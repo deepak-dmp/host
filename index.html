@@ -1,0 +1,206 @@
+  <html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+<style>
+.owl-prev{
+  left:-30px;
+}
+
+.owl-next{
+  right:-30px;
+}
+
+.owl-prev,.owl-next{
+position:absolute;
+top:30%;
+}
+
+.owl-prev span,.owl-next span{
+font-size:60px;
+color:#787878;
+}
+
+.owl-theme .owl-nav[class*="owl-"]:hover{
+ background-color:transparent;
+}
+
+</style>
+</head>
+<body>
+<div class="container mt-5 mb-5">
+<div class="owl-carousel owl-theme">
+<!--1st-->
+<div class="item ml-2 mr-2" >
+
+<div class="card">
+<img data-src="3rd.jpg" class="card-img-top owl-lazy">
+<div class="card-body">
+<h5 class="card-title">post title 1</h5>
+post description 1
+</div>
+</div>
+
+</div>
+<!--1st-->
+<!--2nd-->
+<div class="item ml-2 mr-2" >
+
+<div class="card">
+<img data-src="3rd.jpg" class="card-img-top owl-lazy">
+<div class="card-body">
+<h5 class="card-title">post title 2</h5>
+post description 2
+</div>
+</div>
+
+</div>
+<!--2nd-->
+<!--3rd-->
+<div class="item ml-2 mr-2" >
+
+<div class="card">
+<img data-src="3rd.jpg" class="card-img-top owl-lazy">
+<div class="card-body">
+<h5 class="card-title">post title 3</h5>
+post description 3
+</div>
+</div>
+
+</div>
+<!--3rd-->
+<!--4th-->
+<div class="item ml-2 mr-2" >
+
+<div class="card">
+<img data-src="3rd.jpg" class="card-img-top owl-lazy">
+<div class="card-body">
+<h5 class="card-title">post title 4</h5>
+post description 4
+</div>
+</div>
+
+</div>
+<!--4th-->
+<!--5th-->
+<div class="item ml-2 mr-2">
+
+<div class="card">
+<img data-src="3rd.jpg" class="card-img-top owl-lazy">
+<div class="card-body">
+<h5 class="card-title">post title 5</h5>
+post description 5
+</div>
+</div>
+
+</div>
+<!--5th-->
+<!--6th-->
+<div class="item ml-2 mr-2">
+
+<div class="card">
+<img data-src="3rd.jpg" class="card-img-top owl-lazy">
+<div class="card-body">
+<h5 class="card-title">post title 6</h5>
+post description 6
+</div>
+</div>
+
+</div>
+<!--6th-->
+<!--7th-->
+<div class="item ml-2 mr-2">
+
+<div class="card">
+<img data-src="3rd.jpg" class="card-img-top owl-lazy">
+<div class="card-body">
+<h5 class="card-title">post title 7</h5>
+post description 7
+</div>
+</div>
+
+</div>
+<!--7th-->
+<!--8th-->
+<div class="item ml-2 mr-2" >
+
+<div class="card">
+<img data-src="3rd.jpg" class="card-img-top owl-lazy">
+<div class="card-body">
+<h5 class="card-title">post title 8</h5>
+post description 8
+</div>
+</div>
+
+</div>
+<!--8th-->
+<!--9th-->
+<div class="item ml-2 mr-2">
+
+<div class="card">
+<img data-src="3rd.jpg" class="card-img-top owl-lazy">
+<div class="card-body">
+<h5 class="card-title">post title 9</h5>
+post description 9
+</div>
+</div>
+
+</div>
+<!--9th-->
+<!--10th-->
+<div class="item ml-2 mr-2" >
+
+<div class="card">
+<img data-src="3rd.jpg" class="card-img-top owl-lazy">
+<div class="card-body">
+<h5 class="card-title">post title 10</h5>
+post description 10
+</div>
+</div>
+
+</div>
+<!--10th-->
+
+
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js" integrity="sha512-BmM0/BQlqh02wuK5Gz9yrbe7VyIVwOzD1o40yi1IsTjriX/NGF37NyXHfmFzIlMmoSIBXgqDiG1VNU6kB5dBbA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script>
+$('.owl-carousel').owlCarousel(
+{
+autoplay:true,
+autoplayHoverPause:true,
+
+loop:true,
+lazyLoad:true,
+nav:true,
+dot:true,
+stagePadding:5,
+responsive:{
+  0:{
+    items:1
+   
+  },
+  485:{
+    items:2
+   
+  },
+  728:{
+    items:3
+  },
+  960:{
+    items:4
+  },
+  1200:{
+    items:5
+  }
+}
+});
+</script>
+</body>
+</html>
